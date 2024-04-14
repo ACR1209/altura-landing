@@ -54,6 +54,14 @@ function createContactMailto(form){
         return;
     }
 
+    // Hide errors
+    nameError.classList.add("hidden");
+    emailError.classList.add("hidden");
+    messageError.classList.add("hidden");
+    nameInput.classList.remove("border-2","border-red-500");
+    emailInput.classList.remove("border-2","border-red-500");
+    messageInput.classList.remove("border-2","border-red-500");
+
     const mailto = `mailto:david@alturasoluciones.com?subject=Contact%20with%20Altura:%20${name}&body=Email: ${email}%0D%0A%0D%0AMessage:%0D%0A${message}`;
 
     const link = document.createElement('a');
