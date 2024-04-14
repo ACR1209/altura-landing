@@ -1,0 +1,15 @@
+:root{
+    --red: #B5221C;
+    --red-dark: #9C120C;
+    --black: #27282A;
+    --dark: #056ECF;
+    --white: #EFEFEF;
+    --light-gray: #5C5F61;
+    --dark-gray: #413D3D;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 4.5rem;
+}
+  

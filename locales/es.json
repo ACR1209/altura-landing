@@ -1,0 +1,21 @@
+{
+    "#nav_home": "Inicio",
+    "#nav_about": "Sobre Nosotros",
+    "#nav_stack": "Nuestra Tecnología",
+    "#nav_team": "Nuestro Equipo",
+    "#title_1": "Construyendo Software",
+    "#title_2": "Hasta Nuevas Alturas",
+    "#hero_explain_1": "Creamos soluciones técnológicas",
+    "#hero_explain_2": "asombrosas con Ruby on Rails",
+    ".contact": "Contáctanos",
+    "#about_title_1": "Sobre",
+    "#about_title_2": "Nosotros",
+    "#contact_title": "Contáctanos",
+    "#our_stack": "Nuestra Tecnología",
+    "#team_title_1": "Nuestro",
+    "#team_title_2": "Equipo",
+    "#name_label": "Nombre",
+    "#email_label": "Correo electrónico",
+    "#message_label": "Mensaje",
+    "#submit_text": "Contactar con Altura Soluciones"
+}

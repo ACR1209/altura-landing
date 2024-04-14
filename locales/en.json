@@ -1,0 +1,21 @@
+{
+    "#nav_home": "Home",
+    "#nav_about": "About Us",
+    "#nav_stack": "Our Stack",
+    "#nav_team": "Our Team",
+    "#title_1": "Building Software To",
+    "#title_2": "New Heights",
+    "#hero_explain_1": "We create incredible tech solutions",
+    "#hero_explain_2": "with Ruby on Rails",
+    ".contact": "Contact Us",
+    "#about_title_1": "About",
+    "#about_title_2": "Us",
+    "#our_stack": "Our Stack",
+    "#contact_title": "Contact Us",
+    "#team_title_1": "Our",
+    "#team_title_2": "Team",
+    "#name_label": "Name",
+    "#email_label": "Email",
+    "#message_label": "Message",
+    "#submit_text": "Contact Altura Soluciones"
+}
