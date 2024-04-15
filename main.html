@@ -24,11 +24,12 @@
                 <li data-id="team" class="hover:font-bold transition-all cursor-pointer" id="nav_team">Our Team</li>
             </ul>
         </div>
-        <div class="flex gap-2 items-center">
+        <div class="flex gap-2 items-center justify-center">
             <div class="relative">
 
-                <button id="language-selector">
-                    <img class="h-8 rounded-full" src="assets/us.jpg" alt="us flag">
+                <!-- Language selector -->
+                <button id="language-selector" class="flex uppercase items-center justify-center">
+                    en&nbsp;<strong>&or;</strong>
                 </button>
 
                 <div id="language-dropdown"
@@ -37,12 +38,10 @@
                     <ul class="flex flex-col gap-2">
                         <li class="flex items-center gap-2 px-2 py-1 hover:bg-gray-100 select-none cursor-pointer"
                             data-language="en">
-                            <img class="h-8 rounded-full" src="assets/us.jpg" alt="us flag">
                             English
                         </li>
                         <li class="flex items-center gap-2 px-2 py-1 hover:bg-gray-100 select-none cursor-pointer"
                             data-language="es">
-                            <img class="h-8 rounded-full" src="assets/ecuador.jpg" alt="ecuador flag">
                             Español
                         </li>
                     </ul>

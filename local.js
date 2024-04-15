@@ -92,7 +92,7 @@ function changeSelectedLanguage(locale) {
     }
 
     const languageSelector = document.getElementById("language-selector");
-    languageSelector.innerHTML = `<img class="h-8 rounded-full" src="${localeImages[locale]}" alt="${locale} flag">`;
+    languageSelector.innerHTML = `${locale}&nbsp;<strong>&or;</strong>`;
 
     getLocaleData(locale);
     changeStylesForLocale(locale);
