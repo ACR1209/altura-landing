@@ -122,13 +122,13 @@ function getLocaleBasedOnBrowser(userLang) {
 function changeStylesForLocale(locale) {
     const contactTitle = document.getElementById("contact_title");
     if (locale === "es") {
-        contactTitle.classList.remove("lg:text-8xl");
-        contactTitle.classList.add("lg:text-6xl");
+        //contactTitle.classList.remove("lg:text-8xl");
+        //contactTitle.classList.add("lg:text-6xl");
     }
 
     if (locale === "en") {
-        contactTitle.classList.remove("lg:text-6xl");
-        contactTitle.classList.add("lg:text-8xl");
+        //contactTitle.classList.remove("lg:text-6xl");
+        //contactTitle.classList.add("lg:text-8xl");
     }
 }
 
